@@ -49,7 +49,7 @@ const quadraticEquation = (a, b, c) => {
 };
 
 const showResult = (arr) => {
-  result = `Result:\n`;
+  let result = `Result:\n`;
   if (arr.length === 1) {
     result += `x = ${arr[0]}\n`;
 
